@@ -1,7 +1,7 @@
 Kenya Mobile Money Analysis Project
 ===================================
 
-![Dashboard Preview](https://github.com/Dodman101/mobile-money-project/blob/main/reports/assests/dashboard_preview.png)
+![Dashboard Preview](https://kenya-mobile-money-analysis-dashboard.streamlit.app/)
 
 Overview
 --------
