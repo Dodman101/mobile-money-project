@@ -21,7 +21,7 @@ Local Setup
 ### 1\. Clone the Repository
 
 ```
-git clone https://github.com/[your-username]/kenya-mobile-money-analysis.git
+git clone https://github.com/Dodman101/mobile-money-project.git
 cd kenya-mobile-money-analysis
 
 ```
@@ -304,8 +304,8 @@ Contact for Support
 
 For technical assistance with deployment or customization, contact:
 
--   Email: support@smatica.com
--   Website: https://smatica.com/support
+-   Email: support@smatica.co.ke
+-   Website: https://smatica.co.ke/support
 
 License
 -------
