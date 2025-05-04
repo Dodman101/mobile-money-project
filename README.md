@@ -89,13 +89,13 @@ Technologies Used
 Setup and Installation
 ----------------------
 
-For detailed setup instructions, see the [Deployment Guide](https://claude.ai/chat/deployment_guide.md).
+For detailed setup instructions, see the [Deployment Guide](https://github.com/Dodman101/mobile-money-project/blob/main/docs/deployment_guide.md).
 
 Quick setup:
 
 ```
 # Clone the repository
-git clone https://github.com/[your-username]/kenya-mobile-money-analysis.git
+git clone https://github.com/Dodman101/mobile-money-project.git
 cd kenya-mobile-money-analysis
 
 # Create and activate virtual environment
@@ -113,9 +113,9 @@ streamlit run dashboard/mobile_money_dashboard.py
 Documentation
 -------------
 
--   [Executive Summary](https://claude.ai/chat/docs/executive_summary.md): High-level overview of key findings
--   [Case Study](https://claude.ai/chat/docs/case_study.md): Detailed analysis of Kenya's mobile money evolution
--   [Deployment Guide](https://claude.ai/chat/docs/deployment_guide.md): Instructions for setting up and deploying the project
+-   [Executive Summary](https://github.com/Dodman101/mobile-money-project/blob/main/docs/executive_summary.md): High-level overview of key findings
+-   [Case Study](https://github.com/Dodman101/mobile-money-project/blob/main/docs/case_study.md): Detailed analysis of Kenya's mobile money evolution
+-   [Deployment Guide](https://github.com/Dodman101/mobile-money-project/blob/main/docs/deployment_guide.md): Instructions for setting up and deploying the project
 
 About Smatica
 -------------
@@ -135,6 +135,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 ---------------
 
--   Data sources: Central Bank of Kenya, Communications Authority of Kenya
+-   Data sources: Central Bank of Kenya, Communications Authority of Kenya, Kaggle Datasets (Kenya's Mobile Money Payments Data by Collins Ogombo)
 -   Academic references on mobile money and financial inclusion
 -   Open source community for the excellent data analysis and visualization tools
