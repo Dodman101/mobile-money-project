@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -9,7 +10,22 @@ plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("deep")
 
 # Load the data
-df = pd.read_csv('data\Mobile Payments.csv')
+def load_data():
+    # Get the absolute path of the current script (e.g., dashboard/)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Navigate one level up, then into data/processed/
+    file_path = os.path.join(base_dir, '..', 'data', 'Mobile Payments.csv')
+    file_path = os.path.abspath(file_path)  # Resolves ".." properly
+
+    print(f"Loading data from: {file_path}")  # Optional for debugging
+
+    df = pd.read_csv(file_path)
+    return df
+
+# Load the data
+df = load_data()
+
 
 # Display the first few rows to understand the structure
 print("First 5 rows of the dataset:")
@@ -57,7 +73,20 @@ for col in numeric_columns:
 df['year_month'] = df['date'].dt.strftime('%Y-%m')
 
 # Save the cleaned dataset
-df.to_csv('data\processed\cleaned_mobile_payments.csv', index=False)
+def save_data():
+    # Get the absolute path of the current script (e.g., dashboard/)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Navigate one level up, then into data/processed/
+    file_path = os.path.join(base_dir, '..', 'data', 'processed', 'cleaned_mobile_payments.csv')
+
+    file_path = os.path.abspath(file_path)  # Resolves ".." properly
+
+    print(f"Saving data to: {file_path}")  # Optional for debugging
+
+    return df.to_csv(file_path, index=False)
+
+save_data()
 
 print("\nSummary statistics of the cleaned numeric data:")
 print(df[numeric_columns].describe())
