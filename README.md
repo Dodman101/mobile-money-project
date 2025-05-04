@@ -1,7 +1,7 @@
 Kenya Mobile Money Analysis Project
 ===================================
 
-![Dashboard Preview](https://kenya-mobile-money-analysis-dashboard.streamlit.app/)
+![Dashboard Preview](https://github.com/Dodman101/mobile-money-project/blob/main/reports/assests/dashboard_preview.png)
 
 Overview
 --------
@@ -11,7 +11,7 @@ This project analyzes Kenya's revolutionary mobile money ecosystem from 2007 to 
 Live Demo
 ---------
 
-[View the live dashboard here](https://your-streamlit-cloud-url.streamlit.app/)
+[View the live dashboard here](https://kenya-mobile-money-analysis-dashboard.streamlit.app/)
 
 Features
 --------
@@ -115,6 +115,7 @@ Documentation
 
 -   [Executive Summary](https://github.com/Dodman101/mobile-money-project/blob/main/docs/executive_summary.md): High-level overview of key findings
 -   [Case Study](https://github.com/Dodman101/mobile-money-project/blob/main/docs/case_study.md): Detailed analysis of Kenya's mobile money evolution
+-   [Full Report](https://github.com/Dodman101/mobile-money-project/blob/main/docs/The%20Mobile%20Money%20Revolution%20in%20Kenya%20(2007-2025).pdf): Detailed pdf report of Kenya's mobile money study
 -   [Deployment Guide](https://github.com/Dodman101/mobile-money-project/blob/main/docs/deployment_guide.md): Instructions for setting up and deploying the project
 
 About Smatica
