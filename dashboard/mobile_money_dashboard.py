@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
+import os
 
 # Set page configuration
 st.set_page_config(
@@ -16,9 +17,19 @@ st.set_page_config(
 # Function to load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('cleaned_mobile_payments.csv')
+    # Get the absolute path of the current script (e.g., dashboard/)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Navigate one level up, then into data/processed/
+    file_path = os.path.join(base_dir, '..', 'data', 'processed', 'cleaned_mobile_payments.csv')
+    file_path = os.path.abspath(file_path)  # Resolves ".." properly
+
+    print(f"Loading data from: {file_path}")  # Optional for debugging
+
+    df = pd.read_csv(file_path)
     df['date'] = pd.to_datetime(df['date'])
     return df
+
 
 # Load the data
 df = load_data()
