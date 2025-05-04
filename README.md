@@ -121,12 +121,12 @@ Documentation
 About Smatica
 -------------
 
-This project was developed by [Smatica](https://smatica.co.ke/), a data analytics and visualization consultancy specializing in financial inclusion and emerging market analysis. We help organizations understand complex data landscapes through interactive dashboards, detailed analysis, and automated reporting systems.
+This project was developed by [Smatica](https://smatica-official-website.onrender.com/), a data analytics and visualization consultancy specializing in financial inclusion and emerging market analysis. We help organizations understand complex data landscapes through interactive dashboards, detailed analysis, and automated reporting systems.
 
 For inquiries about custom analysis or dashboard development, contact us at:
 
--   Email: info@smatica.co.ke
--   Website: https://smatica.co.ke
+-   Email: [info@smatica.co.ke](https://smatica-official-website.onrender.com/contact.html)
+-   Website: [https://smatica.co.ke](https://smatica-official-website.onrender.com/)
 
 License
 -------
